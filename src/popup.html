@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <strong>Emulate Scheme</strong>
+    <div>
+      <input type="radio" id="unset" name="theme" value="unset" checked />
+      <label for="unset">System</label>
+    </div>
+    <div>
+      <input type="radio" id="light" name="theme" value="light" />
+      <label for="light">Force Light</label>
+    </div>
+    <div>
+      <input type="radio" id="dark" name="theme" value="dark" />
+      <label for="dark">Force Dark</label>
+    </div>
+    <p class="warning">Uses Debugger API to bypass site CSP.</p>
+    <script src="popup.js"></script>
+  </body>
+</html>
